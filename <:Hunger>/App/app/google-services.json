@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636241059114",
+    "project_id": "hunger-40dde",
+    "storage_bucket": "hunger-40dde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636241059114:android:ab3c72f3abaf385328d253",
+        "android_client_info": {
+          "package_name": "com.example.hunger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636241059114-b7rg2cmqt33iictq5d003sutrt03eqb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkV8MWN-cKmSHZYS2HSrUAgluafY8Fktw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636241059114-b7rg2cmqt33iictq5d003sutrt03eqb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

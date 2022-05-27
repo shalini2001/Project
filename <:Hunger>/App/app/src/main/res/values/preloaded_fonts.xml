@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aleo_light</item>
+        <item>@font/allan</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/bangers</item>
+        <item>@font/capriola</item>
+        <item>@font/chonburi</item>
+        <item>@font/jua</item>
+        <item>@font/teko_bold</item>
+        <item>@font/teko_semibold</item>
+    </array>
+</resources>
