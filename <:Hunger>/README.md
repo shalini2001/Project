@@ -1,6 +1,21 @@
 Hunger
 
-voice2.py: 
+voice2.py: The following steps demonstrates the code:
+
+● Step 1: At first the name and location of the hungry person is asked and that is done with the help of text to speech(TTS) conversion. The person’s reply is then recognised using speech to text conversion(STT). Both TTS and STT is done with the help of pyttsx3 and speech_recognition libraries.
+
+● Step 2: After successful conversion of speech to text the text is then used for information processing. I have done this with the help of nltk and spacy libraries. With the help of nltk library a lot of essential entity models were downloaded like
+‘maxent_ne_chunker’, ‘treebank’, ’‘words’, ‘punkt’, etc.
+
+● Step 3: The downloaded entity models then helped in importing another library locationtagger. This library helped in extracting the location from the entire text input so that the unnecessary words/stopwords(like ‘I’, ‘am’, ‘living’, etc.) are removed and only the keywords(like name of area and name of city) can be used for further processing.
+
+● Step 4: The keywords are then concatenated to form an address which is then passed to the MongoDB server.
+
+● Step 5: From the server when we receive the nearest restaurant name and address we store it in a variable and convert it from text to speech to tell the hungry person where it needs to go to receive food.
+
+● Step 6: In case no restaurant is found we convert the text, “No restaurant is available”' to speech to let the hungry person know that there is no restaurant near him/her that has extra food available.
+
+● Step 7: The code gave the desired output after running the python file in the command prompt/terminal.
 
 The following libraries are used-
 
