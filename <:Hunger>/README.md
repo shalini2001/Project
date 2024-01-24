@@ -1,2 +1,2 @@
-"</Hunger>"
+Hunger
 
