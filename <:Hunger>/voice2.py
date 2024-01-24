@@ -15,6 +15,7 @@ from geopy.geocoders import Nominatim
 r = sr.Recognizer()  
 engine = pyttsx3.init()  
 
+# capturing the name
 with sr.Microphone() as source:
     text = "Please tell your name"  
     engine.say(text)
@@ -27,6 +28,7 @@ with sr.Microphone() as source:
     except:
         print("Sorry could not understand what you said. Please repeat")
 
+# capturing the location
 with sr.Microphone() as source:
     text = "Please tell your location"  
     engine.say(text)  
@@ -52,7 +54,7 @@ nltk.downloader.download('punkt')
 nltk.download('averaged_perceptron_tagger')"""
 import locationtagger
 
-# extracting entities.
+# extracting entities from the location recognised through speech.
 place_entity = locationtagger.find_locations(text = l)
 
 # getting all region cities
@@ -96,7 +98,7 @@ if (St.find('State of') != -1):
 	St=St[9:]
 #St = "Madhya Pradesh"
 #Ct = "Indore"
-Ar = "Nanda Nagar"
+#Ar = "Nanda Nagar"
 #parsing the latitude and longitude of the string address
 address = Ar + ", " + Ct + ", " + St + ", India" 
 print(address)
