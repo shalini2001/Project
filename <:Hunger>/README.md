@@ -1,5 +1,15 @@
 Hunger
 
+App: The code employed in developing the application.
+
+<_hunger>.pptx: A PowerPoint presentation illustrating the project's motivation and providing a detailed overview of its functionality.
+
+App Working.mp4: A video showcasing the operational aspects of the application.
+
+NLP model.mp4: A video demonstrating the functionality of the Natural Language Processing (NLP) model in voice2.py file.
+
+Phase-II report 19BAI10139 (1).pdf: A comprehensive report on the project, encompassing details about the technology stack used and an explanation of the motivation behind selecting such a tech stack.
+
 voice2.py: The following steps demonstrates the code:
 
 ● Step 1: At first the name and location of the hungry person is asked and that is done with the help of text to speech(TTS) conversion. The person’s reply is then recognised using speech to text conversion(STT). Both TTS and STT is done with the help of pyttsx3 and speech_recognition libraries.
