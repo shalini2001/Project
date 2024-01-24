@@ -1,4 +1,4 @@
-Astrovision
+# Astrovision
 
 #### 4.1 Introduction
 In the pursuit of constructing a machine learning model for a redshift regressor and galaxy classifier, a systematic procedure is outlined through the following modules, each presented in a step-by-step format.
@@ -19,6 +19,10 @@ The dataset undergoes splitting into training and testing sets. The training set
 
 #### 4.6 Decision Tree Plotting
 The decision tree model is visualized using the `export_graphviz` function. This graphical representation aids in understanding the structure and decision-making processes of the trained model.
+
+#### 4.7	Defining color indexes and plotting the redshift graph
+![image](https://github.com/shalini2001/Project/assets/66840714/9c9b21aa-c5c5-4693-971a-cbc096d2b8da)
+
 
 ### The Classifier Model:
 
