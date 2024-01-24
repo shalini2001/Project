@@ -1,6 +1,8 @@
-Fake News Detection
+# Fake News Detection
 
 ### 4.1 Introduction
+
+Our proposed system aims at reliably predicting and classifying the given piece of news as fake or true with the help of recurrent neural networks (RNNs) and long-short term memory (LSTM) algorithms. With the help of our proposed machine learning model, we lay a solid foundation for efficient detection of fake news by overcoming the limitations of the existing systems and trying to achieve higher accuracy rates.
 
 To construct a machine learning model for fake news detection, we follow a step-by-step approach outlined in the modules below.
 
